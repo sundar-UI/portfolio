@@ -11,15 +11,6 @@ import React, { Component } from 'react'
                         <a href="https://groeneveld.ibmhub.nl/" target= "_blank">
                             <div className="img"  data-aos="zoom-in-up" data-aos-duration="1000">
                                 <img src="./images/kitchen_img1.png" alt="blog" />
-                                {/* <div className="author flex">
-                                    <div className="_img">
-                                        <img src="./images/author1.png" alt="author" />
-                                    </div>
-                                    <div className="_text">
-                                        <h3>John Doe</h3>
-                                        <p>Head of Marketing</p>
-                                    </div>
-                                </div> */}
                             </div>
                             <div className="text" data-aos="slide-up" data-aos-duration="2000">
                                 <h2>Groeneveld</h2>
@@ -31,15 +22,6 @@ import React, { Component } from 'react'
                         <a href="https://solar.ibmhub.nl/" target= "_blank">
                             <div className="img"  data-aos="zoom-in-up" data-aos-duration="1000">
                                 <img src="./images/blog_img3.png" alt="blog" />
-                                {/* <div className="author flex">
-                                    <div className="_img">
-                                        <img src="./images/author2.png" alt="author" />
-                                    </div>
-                                    <div className="_text">
-                                        <h3>Jane Maria</h3>
-                                        <p>Designer</p>
-                                    </div>
-                                </div> */}
                             </div>
                             <div className="text" data-aos="slide-up" data-aos-duration="2000">
                                 <h2>Solar for all</h2>
@@ -51,15 +33,6 @@ import React, { Component } from 'react'
                         <a href="https://danalewu.com/" target= "_blank">
                             <div className="img"  data-aos="zoom-in-up" data-aos-duration="1000"> 
                                 <img src="./images/dana-img1.png" alt="blog" />
-                                {/* <div className="author flex">
-                                    <div className="_img">
-                                        <img src="./images/author3.png" alt="author" />
-                                    </div>
-                                    <div className="_text">
-                                        <h3>Jack Dorsey</h3>
-                                        <p>Marketing Specialist</p>
-                                    </div>
-                                </div> */}
                             </div>
                             <div className="text" data-aos="slide-up" data-aos-duration="2000">
                                 <h2>Dana Lewu</h2>
@@ -71,15 +44,6 @@ import React, { Component } from 'react'
                         <a href="https://bugtreat.org/foodzat/" target= "_blank">
                             <div className="img"  data-aos="zoom-in-up" data-aos-duration="1000">
                                 <img src="./images/about_img3.png" alt="blog" />
-                                {/* <div className="author flex">
-                                    <div className="_img">
-                                        <img src="./images/author3.png" alt="author" />
-                                    </div>
-                                    <div className="_text">
-                                        <h3>Jack Dorsey</h3>
-                                        <p>Marketing Specialist</p>
-                                    </div>
-                                </div> */}
                             </div>
                             <div className="text" data-aos="slide-up" data-aos-duration="2000">
                                 <h2>Foodzat</h2>
@@ -91,15 +55,6 @@ import React, { Component } from 'react'
                         <a href="https://bugtreat.org/foodorder/" target= "_blank">
                             <div className="img"  data-aos="zoom-in-up" data-aos-duration="1000">
                                 <img src="./images/ln_img2.png" alt="blog" />
-                                {/* <div className="author flex">
-                                    <div className="_img">
-                                        <img src="./images/author3.png" alt="author" />
-                                    </div>
-                                    <div className="_text">
-                                        <h3>Jack Dorsey</h3>
-                                        <p>Marketing Specialist</p>
-                                    </div>
-                                </div> */}
                             </div>
                             <div className="text" data-aos="slide-up" data-aos-duration="2000">
                                 <h2>Foodbeez</h2>
@@ -111,15 +66,6 @@ import React, { Component } from 'react'
                         <a href="https://www.xeltek.com/" target= "_blank">
                             <div className="img"  data-aos="zoom-in-up" data-aos-duration="1000">
                                 <img src="./images/blog_img1.png" alt="blog" />
-                                {/* <div className="author flex">
-                                    <div className="_img">
-                                        <img src="./images/author3.png" alt="author" />
-                                    </div>
-                                    <div className="_text">
-                                        <h3>Jack Dorsey</h3>
-                                        <p>Marketing Specialist</p>
-                                    </div>
-                                </div> */}
                             </div>
                             <div className="text" data-aos="slide-up" data-aos-duration="2000">
                                 <h2>Xeltek</h2>
@@ -131,15 +77,6 @@ import React, { Component } from 'react'
                         <a href="https://powerjungle.net/" target= "_blank">
                             <div className="img"  data-aos="zoom-in-up" data-aos-duration="1000">
                                 <img src="./images/gadgets.jpg" alt="blog" />
-                                {/* <div className="author flex">
-                                    <div className="_img">
-                                        <img src="./images/author3.png" alt="author" />
-                                    </div>
-                                    <div className="_text">
-                                        <h3>Jack Dorsey</h3>
-                                        <p>Marketing Specialist</p>
-                                    </div>
-                                </div> */}
                             </div>
                             <div className="text" data-aos="slide-up" data-aos-duration="2000">
                                 <h2>Powerjungle</h2>
@@ -151,15 +88,6 @@ import React, { Component } from 'react'
                         <a href="https://test.yobler.com/" target= "_blank">
                             <div className="img"  data-aos="zoom-in-up" data-aos-duration="1000">
                                 <img src="./images/baby_img2.png" alt="blog" />
-                                {/* <div className="author flex">
-                                    <div className="_img">
-                                        <img src="./images/author3.png" alt="author" />
-                                    </div>
-                                    <div className="_text">
-                                        <h3>Jack Dorsey</h3>
-                                        <p>Marketing Specialist</p>
-                                    </div>
-                                </div> */}
                             </div>
                             <div className="text" data-aos="slide-up" data-aos-duration="2000">
                                 <h2>yobler</h2>

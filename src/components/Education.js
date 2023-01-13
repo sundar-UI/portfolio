@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import background from '../bg-images/education_bg.jpg'
+
 
  class Education extends Component {
   render() {
     return (
-      <section className = "Education">
-          <img className="act_bg" src="../images/education_bg.jpg" />
+      <section className = "Education" style= {{ backgroundImage : `url(${background})` }} >
           <div className="container">
               <div className="row">
                   <div className="col-lg-6 col-md-12 ed_block" data-aos="fade-right" data-aos-duration = "2000">

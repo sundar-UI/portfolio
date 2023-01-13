@@ -191,7 +191,7 @@ body {
 header {
   padding: 22px 0; }
   header .logo {
-    max-width: 148px; }
+    max-width: 180px; }
   header .menus ul li {
     font: 14px/20px 'Poppins', sans-serif;
     float: left;
@@ -383,18 +383,20 @@ header {
 
       .Education{
         padding: 60px 0;
-        background: #049dff;
         position: relative;
         z-index: 1;
+        background-attachment:fixed;
+        background-position: bottom; 
+        
       }
 
-      .Education .act_bg{
+      .Education::before{
         position: absolute;
         width: 100%;
         height: 100%;
+        content: "";
         top: 0;
-        object-fit: cover;
-        opacity: .2;
+        background: #049dff78;
         z-index: -1;
       }
 
@@ -580,7 +582,7 @@ header {
 
 
       .skills{
-        padding: 30px 0;
+        padding: 30px 0 50px;
       }
       .skills .right .progress_block p{
         font: 24px/30px 'Merriweather Sans', sans-serif;
