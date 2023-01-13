@@ -39,12 +39,13 @@ class Header extends Component{
                             <div className="wrap">
                                 <span className="close_btn"></span>
                                 <ul>
-                                    <li><a href="#" data-content="Why us?">Why us?</a></li>
-                                    <li><a href="#scroll_d" data-content="Marketing platform">Marketing platform</a></li>
-                                    <li><a href="#" data-content="Pricing">Pricing</a></li>
+                                    <li><a href="#" data-content="Home">Home</a></li>
+                                    <li><a href="#about_d" data-content="About">About</a></li>
+                                    <li><a href="#scroll_d" data-content="Work">Work</a></li>
+                                    <li><a href="#skill_d" data-content="Skills">Skills</a></li>
                                 </ul>
                             </div>
-                            <a href="#" className="sign_up">Sign Up, It’s Free</a>
+                            <a href="https://drive.google.com/file/d/103z4NUDEDt9oHgT1jkyJBIY_FqGE9xAA/view?usp=share_link" target="_blank" className="sign_up">Download Resume</a>
                         </div>
                     </div>
                 </div>

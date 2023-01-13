@@ -107,6 +107,10 @@ a, a:active, a:hover {
 a:focus {
   outline: none;
   text-decoration: none; }
+body a{
+  color: initial;
+  text-decoration: none;
+}
 
 * {
   box-sizing: border-box; }
@@ -169,7 +173,7 @@ body {
   color: #1E202F; }
 
 .container {
-  max-width: 1140px;
+  max-width: 1140px!important;
   margin: 0 auto;
   padding: 0;
   width: 100%; }
@@ -274,7 +278,7 @@ header {
       font: 64px/90px 'Merriweather Sans', sans-serif; }
       .banner .banner_text h1 span {
         position: relative;
-        display: inline-block; }
+        display: block; }
         .banner .banner_text h1 span::before {
           content: '';
           position: absolute;
@@ -320,6 +324,288 @@ header {
         background: transparent; }
         .banner .banner_text .plan:hover::before {
           width: 100%; }
+        
+      .about_me{
+        padding: 60px 0;
+      }
+      .about_me p.ab_head{
+        font: 45px/50px 'Merriweather Sans', sans-serif;
+        padding-bottom: 20px;
+        border-bottom:2px solid #4099F1;
+        text-align: center;
+        margin-bottom: 50px;
+        
+      }
+      .about_me .details > p{
+        font: 30px/45px 'Merriweather Sans', sans-serif;
+        color: #4099F1;
+      }
+      .about_me .details span{
+        display: block;
+        font: 16px/26px 'Poppins', sans-serif;
+        margin-bottom: 15px;
+      }
+      .about_me .details ul li{
+        font: 16px/26px 'Poppins', sans-serif;
+        margin-bottom: 15px;
+        list-style-type: disclosure-closed;
+      }
+      .about_me .image img{
+        width:100%;
+        height: 500px;
+        object-fit: cover;
+      }
+      
+      .about_me .image p{
+        font: 17px/30px 'Merriweather Sans', sans-serif;
+        margin-bottom: 30px;
+        color: #4099F1;
+      }
+      .about_me .image p span{
+        color: #000;
+      }
+
+      .ed_block > div{
+        position: relative;
+        margin-bottom: 30px;
+      }
+
+      .ed_block > div p{
+        font: 24px/30px 'Merriweather Sans', sans-serif;
+        color: #fff;
+      }
+      .ed_block > div > span{
+        font: 20px/26px 'Poppins', sans-serif;
+        display: block;
+        padding-right: 90px;
+        color: #fff;
+      }
+
+      .Education{
+        padding: 60px 0;
+        background: #049dff;
+        position: relative;
+        z-index: 1;
+      }
+
+      .Education .act_bg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        object-fit: cover;
+        opacity: .2;
+        z-index: -1;
+      }
+
+      .Education .ed_block > p{
+        font: 35px/45px 'Merriweather Sans', sans-serif;
+        color: #fff;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid;
+      }
+
+      .Education .experience > p{
+        font: 35px/45px 'Merriweather Sans', sans-serif;
+        color: #fff;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid;
+      }
+
+      .Education .experience > div p{
+        font: 20px/26px 'Poppins', sans-serif;
+        font-weight: 800;
+        color: #fff;
+      }
+
+      .Education .experience > div p span{
+        display: inline-block;
+        margin-left: 10px;
+        color: #fff;
+      }
+
+      .Education .experience > div > span{
+        font: 20px/26px 'Poppins', sans-serif;
+        display: block;
+        color: #fff;
+      }
+
+      .Education .experience{
+        padding-left: 40px;
+      }
+
+      .ed_block .progress {
+        width: 90px;
+        height: 90px !important;
+        float: left; 
+        line-height: 150px;
+        background: none;
+        top:0;
+        right: 0;
+        box-shadow: none;
+        position: absolute;
+      }
+      .ed_block .progress:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 0px solid #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .ed_block .progress>span {
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+      }
+      .ed_block .progress .progress-left {
+        left: 0;
+      }
+      .ed_block .progress .progress-bar {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border-width: 5px;
+        border-style: solid;
+        position: absolute;
+        top: 0;
+      }
+      .banner, .about_me, .skills, .Education, .blogs{
+        overflow: hidden;
+      }
+      .ed_block .progress .progress-left .progress-bar {
+        left: 100%;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 80px;
+        border-left: 0;
+        -webkit-transform-origin: center left;
+        transform-origin: center left;
+      }
+      .ed_block .progress .progress-right {
+        right: 0;
+      }
+      .ed_block .progress .progress-right .progress-bar {
+        left: -100%;
+        border-top-left-radius: 80px;
+        border-bottom-left-radius: 80px;
+        border-right: 0;
+        -webkit-transform-origin: center right;
+        transform-origin: center right;
+        animation: loading-1 1.8s linear forwards;
+      }
+      .ed_block .progress .progress-value {
+        width: 90%;
+        height: 90%;
+        border-radius: 50%;
+        background: #fff;
+        font-size: 20px;
+        color: #000;
+        line-height: 80px;
+        text-align: center;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+      }
+      .ed_block .progress.blue .progress-bar {
+        border-color: #049dff;
+      }
+      .ed_block .progress.blue .progress-left .progress-bar {
+        animation: loading-2 1.5s linear forwards 1.8s;
+      }
+      .ed_block .progress.yellow .progress-bar {
+        border-color: #fdba04;
+      }
+      .ed_block .progress.green .progress-bar {
+        border-color: green;
+      }
+      /* .ed_block .progress.yellow .progress-right .progress-bar {
+        animation: loading-3 1.8s linear forwards;
+      } */
+      .ed_block .progress.yellow .progress-left .progress-bar {
+        animation: loading-3 1.5s linear forwards 1.8s;
+      }
+
+      .ed_block .progress.green .progress-left .progress-bar {
+        animation: loading-4 1.5s linear forwards 1.8s;
+      }
+
+
+      @keyframes loading-1 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+        }
+      }
+      @keyframes loading-2 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(144deg);
+          transform: rotate(144deg);
+        }
+      }
+      @keyframes loading-3 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(100deg);
+          transform: rotate(100deg);
+        }
+      }
+      @keyframes loading-4 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(100deg);
+          transform: rotate(80deg);
+        }
+      }
+
+
+      .skills{
+        padding: 30px 0;
+      }
+      .skills .right .progress_block p{
+        font: 24px/30px 'Merriweather Sans', sans-serif;
+      }
+      .skills .right .progress_block{
+        margin-bottom: 25px;
+      }
+      .skills .right{
+        padding-left: 40px;
+      }
+      .skills .left img{
+        max-height: 600px;
+        width:100%;
+        object-fit:cover;
+      }
+      .skills .skill_head h4{
+        font: 45px/50px 'Merriweather Sans', sans-serif;
+      }
+
+      .skills .skill_head p{
+        font: 16px/26px 'Poppins', sans-serif;
+        margin-bottom: 15px;
+      }
+
+
 
 .blogs {
   padding: 64px 0; }
@@ -344,13 +630,22 @@ header {
     font: 32px/42px 'Merriweather Sans', sans-serif;
     padding-bottom: 42px; }
   .blogs .blog_slider {
-    position: relative; display: flex;}
+    position: relative; display: flex; flex-wrap: wrap;}
     .blogs .blog_slider .item:hover .img::before {
       height: 100%; }
     .blogs .blog_slider .img {
       position: relative;
-      z-index: 1;  }
-      .blogs .blog_slider .item{width:32%; margin-right: 2%;}
+      z-index: 1; border-radius: 10px;
+      box-shadow: 0 0 10px #999; }
+      .blogs .blog_slider .img img{
+        height: 300px;
+        object-fit: cover;
+        width:100%;
+        object-position: top;
+        border-radius: 10px;
+        vertical-align: bottom;
+      }
+      .blogs .blog_slider .item{width:32%; margin-right: 2%; margin-bottom: 3%;}
       .blogs .blog_slider .item:nth-child(3n){margin-right: 0%}
       .blogs .blog_slider .img::before {
         content: '';
@@ -360,6 +655,7 @@ header {
         height: 0;
         bottom: 0;
         opacity: 0.6;
+        border-radius: 10px;
         left: 0;
         transition: 0.5s all ease-out, 0.5s all ease-in;
         -ms-transition: 0.5s all ease-out, 0.5s all ease-in;
@@ -387,9 +683,9 @@ header {
         font: 20px/30px 'Merriweather Sans', sans-serif;
         padding-bottom: 8px; }
       .blogs .blog_slider .text p {
-        font: 12px/23px 'Poppins', sans-serif;
+        font: 16px/23px 'Poppins', sans-serif;
         color: #82868A;
-        width: 80%; }
+        width: 90%; }
 
 footer {
   padding: 42px 0 13px; }
@@ -399,7 +695,7 @@ footer {
   footer p {
     font: 16px/26px 'Poppins', sans-serif;
     color: #82868A;
-    padding-top: 4px; }
+    padding-top: 4px; margin-bottom: 0;}
   footer ul {
     padding-right: 20px; }
     footer ul li {
@@ -440,7 +736,10 @@ footer {
   .banner {
     padding: 60px 15px; }
     .banner .banner_text h1 {
-      font-size: 57px; } }
+      font-size: 57px; }
+    
+    
+    }
 @media screen and (max-width: 1024px) {
   .banner_img {
     max-width: 55%; }
@@ -465,7 +764,60 @@ footer {
     font-size: 18px; }
 
   .blogs .blog_slider .text p {
-    width: 85%; } }
+    width: 85%; }
+  
+    .about_me p.ab_head{
+      font-size: 40px;
+    }
+    .about_me .details > p{
+      font-size: 28px;
+    }
+    .about_me {
+      padding: 40px 0;
+  }
+  .skills .skill_head h4{
+    font-size: 40px;
+  }
+  .blogs .blog_slider .img img{
+    height: 250px;
+  }
+  .blogs .blog_slider .text p{
+    width: 100%;
+  }
+  .skills .right{
+    padding-left: 12px;
+  }
+  
+  }
+
+  @media screen and (max-width: 991px){
+    .about_me .details{
+      margin-bottom: 25px;
+    }
+    .skills .left{
+      margin-bottom: 45px;
+    }
+    .skills{
+      padding: 10px 0;
+    }
+    .skills .right .progress_block p{
+      font-size: 22px;
+    }
+    .skills .left img{
+      max-height: 500px;
+    }
+
+    .Education .experience {
+      padding-left: 12px;
+    }
+
+    .Education .ed_block{
+      margin-bottom: 40px;
+    }
+
+  }
+
+
 @media screen and (max-width: 767px) {
   .wrap {
     position: fixed;
@@ -525,16 +877,16 @@ footer {
     display: block;
     float: right; }
 
-  header .flex {
-    display: block; }
+  /* header .flex {
+    display: block; } */
 
   header .logo {
     float: left; }
 
-  .flex::after {
+  /* .flex::after {
     content: '';
     display: table;
-    clear: both; }
+    clear: both; } */
 
   header .menus .sign_up {
     font-size: 13px;
@@ -576,7 +928,7 @@ footer {
 
   .blogs h1 {
     font-size: 24px;
-    line-height: 25px; }
+    line-height: 30px; }
 
   .blogs .blog_slider .owl-nav button {
     width: 32px; }
@@ -610,7 +962,21 @@ footer {
     width: 100%; }
 
   header .menus ul li {
-    margin-right: 20px; } }
+    margin-right: 20px; }
+  
+    .blogs .blog_slider .item {
+      width: 48.5%;
+      margin-right: 3%;
+  }
+  .blogs .blog_slider .item:nth-child(3n) {
+    margin-right: 3%;
+}
+  .blogs .blog_slider .item:nth-child(2n){
+    margin-right: 0
+  }
+  
+  
+  }
   
 
     @media screen and (max-width: 650px) {
@@ -623,6 +989,40 @@ footer {
       .blogs .blog_slider .item:nth-child(2n) {
         margin-right: 0%;
     }
+    }
+
+    @media screen and (max-width: 550px){
+       
+      .about_me .image img{
+        height: 400px
+      }
+      .skills .left img {
+        max-height: 400px;
+      }
+      .about_me p.ab_head, .skills .skill_head h4 {
+        font-size: 36px;
+        line-height: 40px;}
+        .about_me .details > p {
+          font-size: 25px;
+          margin-bottom: 10px;
+      }
+      .skills .right .progress_block p {
+        font-size: 20px;}
+        .blogs h1{
+          padding-bottom: 30px;
+        }
+        .blogs .blog_slider .img img {
+          height: 230px;
+      }
+      .blogs .blog_slider .text{
+        padding-top: 20px;
+      }
+      .blogs .blog_slider .text p{
+        font-size: 15px;
+      }
+      .blogs .blog_slider .text h2{
+        margin-bottom: 0;
+      }
     }
 
 
@@ -644,15 +1044,39 @@ footer {
     padding: 30px 15px; }
 
   .blogs h1 {
-    max-width: calc(100% - 100px);
     font-size: 25px;
-    line-height: 27px; }
+  }
 
   footer ul li, footer p {
     font-size: 15px; }
 
   .banner .banner_text h1 {
-    font-size: 35px; } }
+    font-size: 35px; } 
+  
+    .about_me p.ab_head{
+      margin-bottom: 30px;
+    }
+    .about_me p.ab_head, .skills .skill_head h4, .Education .ed_block > p, .Education .experience > p{
+      font-size: 33px;
+      line-height: 35px;
+  }
+  .ed_block .progress{
+    width:70px;
+    height: 70px!important;
+
+  }
+  .ed_block .progress .progress-value{
+    font-size: 15px;
+    line-height: 65px;
+  }
+
+  .skills .left img {
+    max-height: 340px;
+  }
+  
+  
+  
+  }
 /*Responsive css*/
 
 

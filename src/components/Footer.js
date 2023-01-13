@@ -12,12 +12,6 @@ class Footer extends Component {
                                 <img src="./images/logo.png" alt="logo" />
                             </a>
                         </div>
-                        <div className="links">
-                            <ul className="clearfix">
-                                <li><a href="#">Terms & Condition</a></li>
-                                <li><a href="#">Privacy policy</a></li>
-                            </ul>
-                        </div>
                     </div>
                     <div className="right">
                         <p>&copy; 2023 Company name. All rights reserved.</p>
