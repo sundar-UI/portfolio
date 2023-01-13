@@ -5,7 +5,7 @@ import React, { Component } from 'react'
         <section className="blogs" id = "scroll_d">
             <div className="container">
                 <h6 data-aos="slide-down">My Works</h6>
-                <h1 data-aos="slide-up">It contains wordpress, code ignator and cs-cart websites</h1>
+                <h1 data-aos="slide-up">It contains wordpress, codeigniter and cs-cart websites</h1>
                 <div className="blog_slider" data-aos="fade-in" data-aos-duration="3000">
                     <div className="item" data-aos="fade-up">
                         <a href="https://groeneveld.ibmhub.nl/" target= "_blank">
@@ -43,7 +43,7 @@ import React, { Component } from 'react'
                             </div>
                             <div className="text" data-aos="slide-up" data-aos-duration="2000">
                                 <h2>Solar for all</h2>
-                                <p>It is a code ignator website for solar panels and electricals items</p>
+                                <p>It is a codeigniter website for solar panels and electricals items</p>
                             </div>
                         </a>
                     </div>
@@ -83,7 +83,7 @@ import React, { Component } from 'react'
                             </div>
                             <div className="text" data-aos="slide-up" data-aos-duration="2000">
                                 <h2>Foodzat</h2>
-                                <p>It is a code ignator product based website its under developement process</p>
+                                <p>It is a codeigniter product based website its under developement process</p>
                             </div>
                         </a>
                     </div>
@@ -103,7 +103,7 @@ import React, { Component } from 'react'
                             </div>
                             <div className="text" data-aos="slide-up" data-aos-duration="2000">
                                 <h2>Foodbeez</h2>
-                                <p>It is a code ignator product based website its under developement process</p>
+                                <p>It is a codeigniter product based website its under developement process</p>
                             </div>
                         </a>
                     </div>

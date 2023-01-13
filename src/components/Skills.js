@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.css'
          <div className= "container">
             <div className ="skill_head" data-aos="fade-up">
                 <h4>Skills</h4>
-                <p>I have a below skills and i am also using css preprocessor sass and less</p>
+                <p>I have a below skills and i am also used css preprocessor sass and less</p>
             </div>
             <div className="row">
                 <div className="col-lg-6 col-md-12 left" data-aos="zoom-in" data-aos-duration="2000">

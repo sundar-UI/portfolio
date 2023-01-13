@@ -32,7 +32,7 @@ class Header extends Component{
                 <div className="container">
                     <div className="flex">
                         <div className="logo">
-                            <a href="#"><img src="./images/logo.png" alt="logo" /></a>
+                            <a href="#"><img src="./images/logo_3.png" alt="logo" /></a>
                         </div>
                         <div className="menus flex">
                             <span className="toggle_btn">Menu</span>

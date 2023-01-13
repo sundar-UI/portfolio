@@ -514,16 +514,16 @@ header {
         left: 5%;
       }
       .ed_block .progress.blue .progress-bar {
-        border-color: #049dff;
+        border-color: #000;
       }
       .ed_block .progress.blue .progress-left .progress-bar {
         animation: loading-2 1.5s linear forwards 1.8s;
       }
       .ed_block .progress.yellow .progress-bar {
-        border-color: #fdba04;
+        border-color: #000;
       }
       .ed_block .progress.green .progress-bar {
-        border-color: green;
+        border-color:#000;
       }
       /* .ed_block .progress.yellow .progress-right .progress-bar {
         animation: loading-3 1.8s linear forwards;
@@ -711,6 +711,7 @@ footer {
 
 .toggle_btn {
   float: right;
+  cursor: pointer;
   position: relative;
   font: 14px/26px 'Merriweather Sans', sans-serif;
   display: none;
@@ -819,26 +820,29 @@ footer {
 
 
 @media screen and (max-width: 767px) {
+  .about_me {
+    padding: 40px 0 10px;
+}
   .wrap {
     position: fixed;
     transition: 0.5s all ease-out, 0.5s all ease-in;
     -ms-transition: 0.5s all ease-out, 0.5s all ease-in;
     -webkit-transition: 0.5s all ease-out, 0.5s all ease-in;
     -o-transition: 0.5s all ease-out, 0.5s all ease-in;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.8);
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
     top: 0;
     right: -280px;
     opacity: 0;
     visibility: hidden;
     z-index: 4;
-    height: 100%;
+    height: 100vh;
     width: 280px;
     padding: 30px; }
     .wrap.show {
       opacity: 1;
       visibility: visible;
-      right: 0; }
+      right: 0; overflow-y: auto;}
 
   header .menus ul {
     text-align: right;
@@ -849,15 +853,18 @@ footer {
     font: 17px/40px 'Poppins', sans-serif;
     display: block; }
     header .menus ul li a {
-      display: inline-block; }
+      display: inline-block; color: #fff; }
 
   .banner .banner_img::before {
     height: 150px;
     left: 0; }
-
+    body.noScroll{
+      position: fixed;
+    }
   .close_btn {
     float: right;
     height: 30px;
+    cursor: pointer;
     width: 30px;
     right: -15px;
     position: relative; }
@@ -869,7 +876,7 @@ footer {
       transform: rotate(45deg);
       width: 2px;
       height: 16px;
-      background: #1E202F; }
+      background: #fff; }
     .close_btn::after {
       transform: rotate(-45deg); }
 
@@ -1057,7 +1064,7 @@ footer {
       margin-bottom: 30px;
     }
     .about_me p.ab_head, .skills .skill_head h4, .Education .ed_block > p, .Education .experience > p{
-      font-size: 33px;
+      font-size: 31px;
       line-height: 35px;
   }
   .ed_block .progress{

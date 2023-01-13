@@ -9,7 +9,7 @@ class Footer extends Component {
                     <div className="left flex">
                         <div className="logo">
                             <a href="#">
-                                <img src="./images/logo.png" alt="logo" />
+                                <img src="./images/logo_3.png" alt="logo" />
                             </a>
                         </div>
                     </div>
