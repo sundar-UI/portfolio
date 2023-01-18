@@ -860,9 +860,9 @@ footer {
   .banner .banner_img::before {
     height: 150px;
     left: 0; }
-    body.noScroll{
+    /* body.noScroll{
       position: fixed;
-    }
+    } */
   .close_btn {
     float: right;
     height: 30px;
