@@ -18,6 +18,7 @@ class Footer extends Component {
                     </div>
                 </div>
             </div>
+            <a href="#" className="go_top"><img src="./images/arrow-up-solid.svg" alt="arrow"/></a>
         </footer>
     )
   }

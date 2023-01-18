@@ -11,6 +11,18 @@ class Header extends Component{
       
       componentDidMount() {
         this.handle();
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1 && $(window).width() < 768)  {
+                $("header").addClass("fixed");
+            } else {
+                $("header").removeClass("fixed");
+            }
+        });
+        
+        $('header .menus ul li a').click(function() {
+            $('.wrap').removeClass('show');
+        });
+
       }
 
       handle = () => {
@@ -25,7 +37,7 @@ class Header extends Component{
         });
       }
     
-    
+      
     render(){
         return(
             <header>
