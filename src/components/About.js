@@ -13,8 +13,8 @@ import 'bootstrap/dist/css/bootstrap.css';
                        <p>Name : <span>Sundareswarar N</span></p>
                        <p>Date-of-birth : <span>22/10/2000</span></p>
                        <p>Address : <span>Madurai, TamilNadu</span></p>
-                       <p>E-mail : <span>sundar.n8525@gmail.com</span></p>
-                       <p>phone : <span>+91-8525038343</span></p>
+                       <p>E-mail : <a href = "mailto: sundar.n8525@gmail.com">sundar.n8525@gmail.com</a></p>
+                       <p>phone : <a href="tel:+91-8525038343">+91-8525038343</a></p>
                     </div>
                     <div className= "col-lg-6 col-md-12 details" data-aos="fade-left" data-aos-duration="1000">
                         <p>Career objective</p>

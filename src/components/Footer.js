@@ -14,7 +14,7 @@ class Footer extends Component {
                         </div>
                     </div>
                     <div className="right">
-                        <p>&copy; 2023 Company name. All rights reserved.</p>
+                        <p>&copy; 2023 React Js website</p>
                     </div>
                 </div>
             </div>

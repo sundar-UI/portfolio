@@ -12,7 +12,7 @@ class Header extends Component{
       componentDidMount() {
         this.handle();
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 1 && $(window).width() < 768)  {
+            if ($(this).scrollTop() > 1 )  {
                 $("header").addClass("fixed");
             } else {
                 $("header").removeClass("fixed");
@@ -21,8 +21,8 @@ class Header extends Component{
         
         $('header .menus ul li a').click(function() {
             $('.wrap').removeClass('show');
+            
         });
-
       }
 
       handle = () => {
@@ -57,7 +57,7 @@ class Header extends Component{
                                     <li><a href="#skill_d" data-content="Skills">Skills</a></li>
                                 </ul>
                             </div>
-                            <a href="https://drive.google.com/file/d/103z4NUDEDt9oHgT1jkyJBIY_FqGE9xAA/view?usp=share_link" target="_blank" className="sign_up">Download Resume</a>
+                            <a href="https://drive.google.com/file/d/1sa7kgGgLViN--vVZk_1oUVXbeyZe5X2s/view?usp=share_link" target="_blank" className="sign_up">Download Resume</a>
                         </div>
                     </div>
                 </div>
