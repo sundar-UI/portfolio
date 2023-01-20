@@ -21,7 +21,7 @@ import 'bootstrap/dist/css/bootstrap.css';
                         <span>1.10years Experience in user interface designing, Experience in code standards. Team player with effective communication and interpersonal skills, Willingto work as a key player in challenging & creative environment</span>
                         <p>Professional summary</p>
                         <ul>
-                            <li>Developed th front-end webpage by using HTML, CSS, JAVASCRIPT</li>
+                            <li>Developed the front-end webpage by using HTML, CSS, JAVASCRIPT</li>
                             <li>Use Responsive web design templates to meet cut edge technology requirements</li>
                             <li>Implemented page optimization techniques for web pages</li>
                         </ul>
