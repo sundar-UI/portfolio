@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Logo from '../assets/images/logo_3.png'
+import Arrow from '../assets/images/arrow-up-solid.svg'
 
 class Footer extends Component {
   render() {
@@ -8,8 +10,8 @@ class Footer extends Component {
                 <div className="flex">
                     <div className="left flex">
                         <div className="logo">
-                            <a href="#">
-                                <img src="./images/logo_3.png" alt="logo" />
+                            <a href="/">
+                                <img src={Logo} alt="logo" />
                             </a>
                         </div>
                     </div>
@@ -18,7 +20,7 @@ class Footer extends Component {
                     </div>
                 </div>
             </div>
-            <a href="#" className="go_top"><img src="./images/arrow-up-solid.svg" alt="arrow"/></a>
+            <a href="#" className="go_top"><img src={Arrow} alt="arrow"/></a>
         </footer>
     )
   }

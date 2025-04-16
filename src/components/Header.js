@@ -1,6 +1,7 @@
 import React, { Component} from 'react'
 import '../App.css';
 import $ from 'jquery'
+import Logo from '../assets/images/logo_3.png'
 
 class Header extends Component{
    
@@ -44,7 +45,7 @@ class Header extends Component{
                 <div className="container">
                     <div className="flex">
                         <div className="logo">
-                            <a href="#"><img src="./images/logo_3.png" alt="logo" /></a>
+                            <a href="#"><img src={Logo} alt="logo" /></a>
                         </div>
                         <div className="menus flex">
                             <span className="toggle_btn">Menu</span>
@@ -57,7 +58,7 @@ class Header extends Component{
                                     <li><a href="#skill_d" data-content="Skills">Skills</a></li>
                                 </ul>
                             </div>
-                            <a href="https://drive.google.com/file/d/1sa7kgGgLViN--vVZk_1oUVXbeyZe5X2s/view?usp=sharing" target="_blank" className="sign_up">Download Resume</a>
+                            <a href="https://drive.google.com/file/d/1va8G0H2Qan1vytZl-WKMJ03LZ8lFjpOC/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="sign_up">Download Resume</a>
                         </div>
                     </div>
                 </div>
