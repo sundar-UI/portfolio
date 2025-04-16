@@ -7,7 +7,7 @@ export class Banner extends Component {
             <div className="flex">
                 <div className="banner_text" data-aos="fade-up" data-aos-duration="2000">
                     <div className="content">
-                        <h1>Hi,<span>i am Sundar</span>UI Developer</h1>
+                        <h1>Hi,<span>i am Sundar</span>React Developer</h1>
                         <a href="https://drive.google.com/file/d/1sa7kgGgLViN--vVZk_1oUVXbeyZe5X2s/view?usp=sharing" target ="_blank" className="plan">Download Resume</a>
                     </div>
                 </div>
