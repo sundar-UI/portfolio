@@ -45,14 +45,14 @@ class Header extends Component{
                 <div className="container">
                     <div className="flex">
                         <div className="logo">
-                            <a href="#"><img src={Logo} alt="logo" /></a>
+                            <a href="/"><img src={Logo} alt="logo" /></a>
                         </div>
                         <div className="menus flex">
                             <span className="toggle_btn">Menu</span>
                             <div className="wrap">
                                 <span className="close_btn"></span>
                                 <ul>
-                                    <li><a href="#" data-content="Home">Home</a></li>
+                                    <li><a href="/" data-content="Home">Home</a></li>
                                     <li><a href="#about_d" data-content="About">About</a></li>
                                     <li><a href="#scroll_d" data-content="Work">Work</a></li>
                                     <li><a href="#skill_d" data-content="Skills">Skills</a></li>

@@ -20,7 +20,7 @@ class Footer extends Component {
                     </div>
                 </div>
             </div>
-            <a href="#" className="go_top"><img src={Arrow} alt="arrow"/></a>
+            <a href="/" className="go_top"><img src={Arrow} alt="arrow"/></a>
         </footer>
     )
   }
