@@ -51,7 +51,7 @@ const ContactSection = () => {
                         fontSize: { xs: "1rem", md: "1.25rem" }
                     }}
                 >
-                    I'm actively seeking exciting opportunities where I can contribute my skills and grow as a developer.
+                    I'm actively seeking exciting opportunities where I can contribute my skills and enhanced my career.
                     If you're hiring or know of a great opportunity, let's connect!
                 </Typography>
 
