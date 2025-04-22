@@ -1,24 +1,70 @@
-import './App.css';
-import Header from './components/Header'
-import Banner from './components/Banner'
-import Blogs from './components/Blogs'
-import Footer from './components/Footer'
-import About from './components/About'
-import Skills from './components/Skills'
-import Education from './components/Education'
-
+import React, { useRef } from "react";
+import "./App.css";
+import Header from "./Header/Header";
+import Home from "./components/Home";
+import Skills from "./components/Skills";
+import ContactForm from "./components/ContactForm";
+// import Particles from "./librabryCode/Particles";
+import Project from "./components/Project";
+import Expereience from "./components/Expereience";
+import SplashCursor from './SplashCursor'
 function App() {
+  const homeRef = useRef(null);
+  const skillRef = useRef(null);
+  const contactRef = useRef(null);
+  const project = useRef(null)
+  const expereience = useRef(null)
+  const scrollToSection = (ref) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <div className="App">
-      <Header />
-      <Banner />
-      <About />
-      <Skills />
-      <Education />
-      <Blogs />
-      <Footer />
+      {/* Particles Background */}
+      <div
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100vw",
+          height: "100vh",
+          zIndex: -1, // Ensures particles stay behind the content
+        }}
+      >
+        {/* <Particles
+          particleColors={["#FF416C", "#ffffff"]}
+          particleCount={150}
+          particleSpread={8}
+          speed={0.2}
+          particleBaseSize={90}
+          moveParticlesOnHover={true}
+          alphaParticles={false}
+          disableRotation={false}
+        /> */}
+        <SplashCursor/>
+      </div>
+
+      {/* Main Content */}
+      <Header scrollToSection={scrollToSection} homeRef={homeRef} skillRef={skillRef} contactRef={contactRef} />
+      <div ref={homeRef}>
+        <Home />
+      </div>
+      <div ref={skillRef}>
+        <Skills />
+      </div>
+      <div ref={expereience}>
+        <Expereience />
+      </div>
+      <div ref={project}>
+        <Project />
+      </div>
+      <div ref={contactRef}>
+        <ContactForm />
+      </div>
     </div>
   );
 }
 
-export default App
+export default App;
